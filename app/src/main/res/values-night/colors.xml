@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_primary">#C9B9FF</color>
+    <color name="on_brand">#2C176E</color>
+    <color name="page_background">#141217</color>
+    <color name="card_background">#211E25</color>
+    <color name="card_border">#37323D</color>
+    <color name="button_secondary">#312A43</color>
+    <color name="icon_background">#342B52</color>
+    <color name="text_primary">#EAE5ED</color>
+    <color name="text_secondary">#CAC3CE</color>
+</resources>

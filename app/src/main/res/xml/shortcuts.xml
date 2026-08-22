@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_lock"
+        android:shortcutDisabledMessage="@string/shortcut_disabled"
+        android:shortcutId="lock_now"
+        android:shortcutLongLabel="@string/shortcut_lock_long"
+        android:shortcutShortLabel="@string/shortcut_lock_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.simplelockscreen.app.LockActivity"
+            android:targetPackage="com.simplelockscreen.app" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_settings"
+        android:shortcutDisabledMessage="@string/shortcut_disabled"
+        android:shortcutId="settings"
+        android:shortcutLongLabel="@string/shortcut_settings_long"
+        android:shortcutShortLabel="@string/shortcut_settings_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.simplelockscreen.app.MainActivity"
+            android:targetPackage="com.simplelockscreen.app" />
+    </shortcut>
+</shortcuts>

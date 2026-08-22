@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">簡單鎖屏</string>
+    <string name="app_subtitle">設定一次，以後點一下圖示就能立即鎖定螢幕。</string>
+    <string name="status_enabled">一鍵鎖屏已啟用</string>
+    <string name="status_enabled_description">現在點擊桌面上的 App 圖示即可鎖屏。</string>
+    <string name="status_disabled">需要完成設定</string>
+    <string name="status_disabled_description">請啟用無障礙服務，讓 App 執行系統鎖屏動作。</string>
+    <string name="enable_permission">啟用一鍵鎖屏</string>
+    <string name="manage_permission">管理無障礙權限</string>
+    <string name="test_lock">測試鎖屏</string>
+    <string name="how_to_title">使用方式</string>
+    <string name="how_to_description">1. 啟用「簡單鎖屏」無障礙服務。\n2. 回到桌面，點擊 App 圖示即可鎖屏。\n3. 長按 App 圖示並選擇「設定」，可回到此頁。</string>
+    <string name="add_tile">加入快速設定按鈕</string>
+    <string name="privacy_button">隱私與權限說明</string>
+    <string name="privacy_title">隱私與權限</string>
+    <string name="privacy_message">簡單鎖屏只使用無障礙服務執行系統鎖屏動作，不會讀取螢幕內容、監控操作、收集或傳送任何資料。App 不需要網路權限。</string>
+    <string name="accessibility_service_name">簡單鎖屏服務</string>
+    <string name="accessibility_service_summary">點擊 App 圖示或快速設定按鈕時鎖定螢幕</string>
+    <string name="accessibility_service_description">此服務只用於執行系統的鎖定螢幕動作，不會讀取畫面內容或收集資料。</string>
+    <string name="tile_label">鎖定螢幕</string>
+    <string name="tile_added">快速設定按鈕已加入</string>
+    <string name="tile_not_added">未加入快速設定按鈕</string>
+    <string name="tile_dialog_title">加入快速設定</string>
+    <string name="tile_dialog_message">從螢幕頂端向下滑動兩次，點擊編輯按鈕，再將「鎖定螢幕」拖曳到快速設定區。</string>
+    <string name="service_unavailable">鎖屏服務暫時無法使用，請重新開啟無障礙權限。</string>
+    <string name="shortcut_lock_short">立即鎖屏</string>
+    <string name="shortcut_lock_long">立即鎖定螢幕</string>
+    <string name="shortcut_settings_short">設定</string>
+    <string name="shortcut_settings_long">開啟簡單鎖屏設定</string>
+    <string name="shortcut_disabled">此捷徑目前無法使用</string>
+</resources>
