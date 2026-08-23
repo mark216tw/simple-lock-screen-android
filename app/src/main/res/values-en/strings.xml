@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Simple Screen Lock</string>
+    <string name="app_name">Simple One-Tap Lock</string>
     <string name="app_subtitle">Set it up once, then tap the app icon to lock your screen.</string>
     <string name="status_enabled">One-tap lock is enabled</string>
     <string name="status_enabled_description">Tap the app icon on your home screen to lock.</string>
@@ -10,12 +10,12 @@
     <string name="manage_permission">Manage accessibility access</string>
     <string name="test_lock">Test screen lock</string>
     <string name="how_to_title">How to use</string>
-    <string name="how_to_description">1. Enable the Simple Screen Lock accessibility service.\n2. Return home and tap the app icon to lock.\n3. Long-press the app icon and choose Settings to return here.</string>
+    <string name="how_to_description">1. Enable the Simple One-Tap Lock accessibility service.\n2. Return home and tap the app icon to lock.\n3. Long-press the app icon and choose Settings to return here.</string>
     <string name="add_tile">Add Quick Settings tile</string>
     <string name="privacy_button">Privacy and permissions</string>
     <string name="privacy_title">Privacy and permissions</string>
-    <string name="privacy_message">Simple Screen Lock only uses its accessibility service to perform the system screen lock action. It does not read screen content, monitor actions, collect data, or send data. The app does not request internet access.</string>
-    <string name="accessibility_service_name">Simple Screen Lock service</string>
+    <string name="privacy_message">Simple One-Tap Lock only uses its accessibility service to perform the system screen lock action. It does not read screen content, monitor actions, collect data, or send data. The app does not request internet access.</string>
+    <string name="accessibility_service_name">Simple One-Tap Lock service</string>
     <string name="accessibility_service_summary">Locks the screen from the app icon or Quick Settings tile</string>
     <string name="accessibility_service_description">This service is only used to perform the system screen lock action. It does not read screen content or collect data.</string>
     <string name="tile_label">Lock screen</string>
@@ -27,6 +27,6 @@
     <string name="shortcut_lock_short">Lock now</string>
     <string name="shortcut_lock_long">Lock the screen now</string>
     <string name="shortcut_settings_short">Settings</string>
-    <string name="shortcut_settings_long">Open Simple Screen Lock settings</string>
+    <string name="shortcut_settings_long">Open Simple One-Tap Lock settings</string>
     <string name="shortcut_disabled">This shortcut is currently unavailable</string>
 </resources>

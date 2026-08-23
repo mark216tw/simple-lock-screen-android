@@ -1,18 +1,18 @@
 # 隱私權政策
 
-生效日期：2026 年 8 月 22 日
+生效日期：2026 年 8 月 23 日
 
-「簡單鎖屏」重視使用者隱私。本政策說明 App 使用的系統功能以及資料處理方式。
+「簡單一鍵鎖屏」重視使用者隱私。本政策說明 App 使用的系統功能以及資料處理方式。
 
 ## 資料收集
 
-「簡單鎖屏」不會收集、儲存、處理或傳送任何個人資料、裝置資料、使用紀錄或分析資料。
+「簡單一鍵鎖屏」不會收集、儲存、處理或傳送任何個人資料、裝置資料、使用紀錄或分析資料。
 
 App 不申請 Android 網路權限，因此不會透過網路傳送資料。
 
 ## 無障礙服務
 
-「簡單鎖屏」使用 Android 無障礙服務執行系統提供的鎖定螢幕動作。此服務：
+「簡單一鍵鎖屏」使用 Android 無障礙服務執行系統提供的鎖定螢幕動作。此服務：
 
 - 只在使用者點擊 App 圖示、捷徑、測試按鈕或快速設定按鈕時執行鎖屏
 - 不讀取螢幕或視窗內容
@@ -50,9 +50,9 @@ App 不會刻意收集兒童或其他使用者的個人資料。
 
 # Privacy Policy
 
-Effective date: August 22, 2026
+Effective date: August 23, 2026
 
-Simple Screen Lock does not collect, store, process, or transmit personal information, device information, usage history, or analytics. The app does not request Android internet permission.
+Simple One-Tap Lock does not collect, store, process, or transmit personal information, device information, usage history, or analytics. The app does not request Android internet permission.
 
 ## Accessibility Service
 

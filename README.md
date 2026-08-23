@@ -1,10 +1,11 @@
-# 簡單鎖屏
+# 簡單一鍵鎖屏
 
 [![Android](https://img.shields.io/badge/Android-9%2B-3DDC84?logo=android&logoColor=white)](https://developer.android.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Release](https://img.shields.io/github/v/release/mark216tw/simple-lock-screen-android)](https://github.com/mark216tw/simple-lock-screen-android/releases)
+[![Release](https://img.shields.io/github/v/release/mark216tw/simple-lock-screen-android?include_prereleases)](https://github.com/mark216tw/simple-lock-screen-android/releases)
+[![Status](https://img.shields.io/badge/status-debug%20preview-orange)](https://github.com/mark216tw/simple-lock-screen-android/releases)
 
-「簡單鎖屏」是一款專注於一鍵鎖定 Android 螢幕的開源工具。完成一次設定後，點擊桌面 App 圖示即可立即鎖屏。
+「簡單一鍵鎖屏」是一款專注於一鍵鎖定 Android 螢幕的開源工具。完成一次設定後，點擊桌面 App 圖示即可立即鎖屏。
 
 ## 功能
 
@@ -19,7 +20,7 @@
 ## 系統需求
 
 - Android 9（API 28）以上
-- 必須啟用「簡單鎖屏」無障礙服務
+- 必須啟用「簡單一鍵鎖屏」無障礙服務
 
 鎖屏功能使用 Android 官方的 `AccessibilityService.GLOBAL_ACTION_LOCK_SCREEN`。無障礙服務不會訂閱操作事件、讀取視窗內容或收集使用者資料。
 
@@ -27,10 +28,11 @@
 
 1. 前往 [Releases](https://github.com/mark216tw/simple-lock-screen-android/releases) 下載最新 APK。
 2. 允許瀏覽器或檔案管理員安裝未知來源應用程式。
-3. 安裝並開啟「簡單鎖屏」。
+3. 安裝並開啟「簡單一鍵鎖屏」。
 4. 按下「啟用一鍵鎖屏」，在系統設定中啟用服務。
 
-目前 GitHub Release 提供的是 Debug 簽章 APK，適合功能測試，不應視為正式商店發行版本。
+> [!WARNING]
+> 目前 GitHub Release 提供的是 Debug 簽章 APK，僅供功能測試與意見回饋，不是正式商店發行版本。未來改用正式簽章時，可能需要先移除 Debug 版本才能安裝。
 
 ## 使用方式
 

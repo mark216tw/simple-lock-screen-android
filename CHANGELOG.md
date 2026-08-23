@@ -2,6 +2,13 @@
 
 本專案依循 [Semantic Versioning](https://semver.org/) 管理版本。
 
+## 1.1.0-debug - 2026-08-23
+
+### 調整
+
+- App 名稱更新為「簡單一鍵鎖屏」
+- App 圖示更新為符合 adaptive icon 安全區規範的粗線條卡通電源按鈕
+
 ## 1.0.0 - 2026-08-22
 
 ### 新增
