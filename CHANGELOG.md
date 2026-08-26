@@ -2,6 +2,12 @@
 
 本專案依循 [Semantic Versioning](https://semver.org/) 管理版本。
 
+## 1.1.1-debug - 2026-08-26
+
+### 調整
+
+- App 圖示配色統一調整為活潑的藍色系
+
 ## 1.1.0-debug - 2026-08-23
 
 ### 調整
