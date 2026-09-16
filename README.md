@@ -3,7 +3,7 @@
 [![Android](https://img.shields.io/badge/Android-9%2B-3DDC84?logo=android&logoColor=white)](https://developer.android.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Release](https://img.shields.io/github/v/release/mark216tw/simple-lock-screen-android?include_prereleases)](https://github.com/mark216tw/simple-lock-screen-android/releases)
-[![Status](https://img.shields.io/badge/status-debug%20preview-orange)](https://github.com/mark216tw/simple-lock-screen-android/releases)
+[![Status](https://img.shields.io/badge/status-prerelease-orange)](https://github.com/mark216tw/simple-lock-screen-android/releases)
 
 「簡單一鍵鎖屏」是一款專注於一鍵鎖定 Android 螢幕的開源工具。完成一次設定後，點擊桌面 App 圖示即可立即鎖屏。
 
@@ -71,6 +71,18 @@ macOS 或 Linux：
 
 ```text
 app/build/outputs/apk/debug/app-debug.apk
+```
+
+建置啟用 R8 壓縮並使用 Debug 金鑰簽署的測試發行版本：
+
+```powershell
+.\gradlew.bat assemblePrerelease
+```
+
+產出的 APK 位於：
+
+```text
+app/build/outputs/apk/prerelease/app-prerelease.apk
 ```
 
 執行靜態檢查：

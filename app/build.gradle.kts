@@ -12,7 +12,7 @@ android {
         minSdk = 28
         targetSdk = 36
         versionCode = 3
-        versionName = "1.1.1"
+        versionName = "1.0.0"
     }
 
     buildTypes {
@@ -25,6 +25,12 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+        }
+        create("prerelease") {
+            initWith(getByName("release"))
+            versionNameSuffix = "-prerelease"
+            signingConfig = signingConfigs.getByName("debug")
+            matchingFallbacks += listOf("release")
         }
     }
 
